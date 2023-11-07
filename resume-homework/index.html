@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+        * {
+            font-family: poppins;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-left : 2px solid black ;
+            /* background-color: aqua; */
+            width: 100%;
+            padding: 2em;
+        }
+        .sidebar{
+            /* background-color: burlywood; */
+            display: flex;
+            flex-direction: column;
+            padding: 0.9em;
+        }
+        .container{
+            color : #213142;
+            background-color: #fafcf7;
+            border-radius: 25px;
+            padding: 2em;
+            display: flex;
+            display: row;
+            gap: 30px;
+            box-shadow: -10px 10px 10px #c1c1c1;
+        }
+        a {
+            text-decoration: none;
+            color: #008cff;
+        }
+        span.title{
+            font-weight: bold;
+        }
+
+        div.title{
+            margin-bottom: 1em;
+            padding: 0.3em 1.5em;
+            background-color: #cdd4da;
+        }
+        .links a{
+            font-size: 0.7em;
+        }
+        .m-title{
+
+            width: 100%;
+            /* margin-bottom: 100px; */
+            /* padding: 0.3em; */
+        }
+        h4{
+            margin: 0;
+        }
+        .detail{
+            margin: 0;
+        }
+
+        hr{
+            margin-top: 0;
+        }
+        .b-sd{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        body{
+            background-color: #dcdcdc;
+            padding: 4em;
+        }
+        .m-l{
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="profile">
+                <img src="pop.jpg" alt="" style="border-radius: 150px;">
+            </div>
+            <div class="names"><h4>Seyedi and Najafzadeh</h4></div>
+            <div class="detail"><h6>Lorem ipsum dolor sit, amet consectetur</h6></div>
+            <hr color="black" width="170">
+            <!-- line -->
+            <div class="b-sd">
+                <div class="contact">
+                    <span class="title">Contact us</span>
+                    <div class="links">
+                        <a href="mailto:gray.orc.80@gmail.com">gray.orc.80@gmail.com</a>
+                    </div>
+                </div>
+                <div class="personal-profile">
+                    <span class="title">Personal Profile</span>
+                    <div class="links">
+                        <a href="#">Telegram</a>,
+                        <a href="#">Github</a>,
+                        <a href="#">Twiter</a>,
+                        <a href="#">Instagram</a>
+                    </div>
+                </div>
+
+                <div class="skills">
+                    <span class="title">Skills</span>
+                    <div class="links">
+                        <a href="#">Html</a>,
+                        <a href="#">Css</a>,
+                        <a href="#">PHP</a>,
+                        <a href="#">Laravel</a>,
+                        <a href="#">Javascript</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="education" style="width: 60ch;">
+                <div class="title"><span class="m-title">Lorem ipsum dolor sit amet, consectetuer</span></div>
+                <a href="#" class="m-l">Lorem ipsum dolor sit</a><br>
+                <a href="#" class="m-l">consectetuer adipiscing elit, sed diam</a><br>
+                <a href="#" class="m-l">laoreet dolore magna aliquam</a><br>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                </p>
+            </div>
+            <div class="education"  style="width: 60ch;">
+                <div class="title" style="width: 100%;"><span class="title-m">nibh euismod tincidunt ut</span></div>
+                <a href="#" class="m-l">Lorem ipsum dolor sit</a><br>
+                <a href="#" class="m-l">consectetuer adipiscing elit, sed diam</a><br>
+                <a href="#" class="m-l">laoreet dolore magna aliquam</a><br>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
